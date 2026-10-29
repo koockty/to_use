@@ -8,6 +8,8 @@ if [ -z "$MESSAGE" ]; then
   exit 1
 fi
 
+
+
 git add -A
 git commit -m "$MESSAGE"
 git push 
