@@ -10,4 +10,4 @@ fi
 
 git add -A
 git commit -m "$MESSAGE"
-git -c credential.helper= push 
+git push 
